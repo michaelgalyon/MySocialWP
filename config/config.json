@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/mySocialWp/MySocialWpWebPart.js",
+      "manifest": "./src/webparts/mySocialWp/MySocialWpWebPart.manifest.json",
+      "outputPath": "./dist/my-social-wp.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "mySocialWpStrings": "webparts/mySocialWp/loc/{locale}.js"
+  }
+}

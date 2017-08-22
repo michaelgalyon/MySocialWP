@@ -1,0 +1,11 @@
+{
+  "solution": {
+    "name": "my-social-wp-client-side-solution",
+    "id": "354c0929-ba2d-4ccf-8c6b-3b27ae863f16",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/my-social-wp.sppkg"
+  }
+}

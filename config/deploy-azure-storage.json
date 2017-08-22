@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "my-social-wp",
+  "accessKey": "<!-- ACCESS KEY -->"
+}

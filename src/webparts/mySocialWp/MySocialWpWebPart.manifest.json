@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "3a2e6a68-36d4-4963-b090-ecc4d5c0b17e",
+  "alias": "MySocialWpWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "3a2e6a68-36d4-4963-b090-ecc4d5c0b17e",
+    "group": { "default": "Under Development" },
+    "title": { "default": "MySocialWP" },
+    "description": { "default": "My Social and Collaboration Web Part for Peach Project Dashboard" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "MySocialWP"
+    }
+  }]
+}
